@@ -1,0 +1,10 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-green {
+    @apply p-2 border text-white bg-green-500;
+  }
+}
